@@ -40,12 +40,12 @@ python app.py
 
 #
 #### GET /countries
-    returns a list of countries in json with country name, distance from the current location in meters, coordinates & the price to travel to that country
+    returns a list of countries in json with country code, distance from the current location in meters, coordinates & the price to travel to that country
 
 ```json
 [
     {
-        "country_name": "finland",
+        "country_code": "FI",
         "distance_m": 5000000000,
         "coordinates": {
             "lat": 60.192059,
@@ -101,7 +101,7 @@ python app.py
 [
     {
         "player_name": "player1",
-        "player_country": "finland",
+        "player_country_code": "FI",
         "player_score": 1000,
         "finish_time": 300
     },
@@ -122,7 +122,7 @@ request body:
 ```json
 {
     "player_name": "player1",
-    "player_country": "finland",
+    "player_country_code": "FI",
     "player_score": 1000,
     "finish_time": 300
 }
@@ -134,7 +134,7 @@ response body:
 [
     {
         "player_name": "player1",
-        "player_country": "finland",
+        "player_country_code": "FI",
         "player_score": 1000,
         "finish_time": 300
     },
