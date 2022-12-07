@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Database credentials
+db_credentials.json
+
+# osx
+.DS_Store
