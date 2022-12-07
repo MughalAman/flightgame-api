@@ -13,6 +13,11 @@ api for a school project game made in python using flask
 <br>
 
 # Installation
+### Create a virtual environment (optional)
+```bash
+python -m venv env
+```
+
 ### Installing the required packages
 ```bash
 pip install -r requirements.txt
