@@ -39,7 +39,7 @@ python app.py
 ## Routes
 - [/countries](#get-countries)
 - [/jobs](#get-jobs)
-- [/weather](#get-weather)
+- [/weather](#get-weathercountry_name)
 - [/leaderboard GET](#get-leaderboard)
 - [/leaderboard POST](#post-leaderboard)
 
