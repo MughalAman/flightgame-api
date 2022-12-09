@@ -24,7 +24,7 @@ def turn_into_json(sql_list):
         "airport_ident": sql_list[0][1],
         "country_name": sql_list[0][2],
         "country_code": sql_list[0][3],
-        "cordinates": {
+        "coordinates": {
             "lat": sql_list[0][4],
             "lon": sql_list[0][5]
         },
