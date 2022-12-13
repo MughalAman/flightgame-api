@@ -1,5 +1,6 @@
-import json
 
+#Tiedosto sisältää kaikkien työvaihtoehtojen arvot.
+# Minkä niminen työ on, Onko se hyvä vai huono, Paljonko rahaa siitä saa ja minkä viestim peli antaa kun häviät työnteon.
 all_jobs = {
         "job_name": [
         "Haravoi", "Tee töitä mäkkärissä,", "Pese autoja", "Siivoa kauppakeskusta", "Aja nurmikkoa",
@@ -58,6 +59,5 @@ all_jobs = {
 
     }
 
-print(json.dumps(all_jobs))
 
 
