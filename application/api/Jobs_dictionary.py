@@ -9,10 +9,25 @@ all_jobs = {
         "Ryöstä pankki" : "Vartijat taklasivat sinut ennen kun ehdit vetää aseesi esiin.",
         "Myy sarvikuonon sarvia": "Asiakkaasi oli salapoliisi joka ilmiantoi sinut",
         "Varasta punaiselta ristiltä": "Punainen risti sai sinut kiinni ja vei kaiken veresi." ,
-
-        "Haravoi" : "", "Tee töitä mäkkärissä,", "Pese autoja", "Siivoa kauppakeskusta", "Aja nurmikkoa",
-        "Myy keksimääsi virvoitusjuomaa", "Kudo sukkia ja myy niitä", "Leikkaa hiuksia", "Kiillota kenkiä",
-        "Myy leivoksia", "Siivoa vessoja", "Myy kiviä", "Myy omenoita", "Myy päärynöitä",
-        "Anna hierontoja", "Kerää banaanaeja ja myy niitä", "Voita shakkiturnaus", "Myy tekemiäsi housuja",
-        "Myy fidget spinnereitä", "Leikkaa partoja"
+        "Haravoi" : "Onnistuit rikkomaan haravan ja joudut ostamaan uuden.",
+        "Tee töitä mäkkärissä." : "Tarjoilit asiakkaalle pilaantunutta ruokaa ja sait potkut",
+        "Pese autoja" : "Naarmutit asiakkaan autoa ja juoksit tapahtumapaikalta karkuun",
+        "Siivoa kauppakeskusta" : "Ajoit siivouskoneella seinään ja pakenit",
+        "Aja nurmikkoa" : "Rikoit asiakkaasi ruoholeikkurin ja piilotit sen puskaan",
+        "Myy keksimääsi virvoitusjuomaa" : "Virvoitusjuomasi aiheutti sairaskohtauksia asiakkailla",
+        "Kudo sukkia ja myy niitä" : "Kaaduit kutomapuikon pälle ja se puhkaisi rintakehäsi. Joudut sairaalaan",
+        "Leikkaa hiuksia" : "Leikkasit asiakkaalta kaikki hiukset ja sait potkut.",
+        "Kiillota kenkiä": "Käytit syövyttävää ainetta ja pilasit asiakkaan kengät",
+        "Myy leivoksia": "Käytit pilaantuneita aineita ja leivoksesi eivät myyyneet",
+        "Siivoa vessoja" : "Sait infektion ja jouduit sairaalaan",
+        "Myy kiviä" : "Asiakas suuttui huonosta palvelusta ja heitti kiven naamaasi.",
+        "Myy omenoita" : "Omenat olivat pilaantuneita.",
+        "Myy päärynöitä" : "Päärynöissä oli saasteita.",
+        "Anna hierontoja" : "Käyttäydyit epäasiallisesti ja menetit asiakkaasi",
+        "Kerää banaanaeja ja myy niitä" : "Karannut apina vei tuotteesi.",
+        "Voita shakkiturnaus" : "Huijasit ja sinut diskattiin",
+        "Myy tekemiäsi housuja" : "Ompelit huonosti housut ja jokainen hajosi.",
+        "Myy fidget spinnereitä" : "Asiakas huijasi kaikki tuotteet sinulta.",
+        "Leikkaa partoja" : "Viilsit asiakkaan korvan irti ja karkasit."
     }
+
