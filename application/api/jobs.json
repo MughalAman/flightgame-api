@@ -1,0 +1,182 @@
+[
+    {
+        "job_name": "Haravoi",
+        "is_bad": false,
+        "reward": 150,
+        "penalty_message": "Onnistuit rikkomaan haravan ja joudut ostamaan uuden."
+    },
+    {
+        "job_name": "Tee töitä mäkkärissä",
+        "is_bad": false,
+        "reward": 250,
+        "penalty_message": "Tarjoilit asiakkaalle pilaantunutta ruokaa ja sait potkut."
+    },
+    {
+        "job_name": "Pese autoja",
+        "is_bad": false,
+        "reward": 350,
+        "penalty_message": "Naarmutit asiakkaan autoa ja juoksit tapahtumapaikalta karkuun."
+    },
+    {
+        "job_name": "Siivoa kauppakeskusta",
+        "is_bad": false,
+        "reward": 450,
+        "penalty_message": "Ajoit siivouskoneella seinään ja pakenit."
+    },
+    {
+        "job_name": "Aja nurmikkoa",
+        "is_bad": false,
+        "reward": 500,
+        "penalty_message": "Rikoit asiakkaasi ruoholeikkurin ja piilotit sen puskaan."
+    },
+    {
+        "job_name": "Myy keksimääsi virvoitusjuomaa",
+        "is_bad": false,
+        "reward": 120,
+        "penalty_message": "Virvoitusjuomasi aiheutti sairaskohtauksia asiakkailla."
+    },
+    {
+        "job_name": "Kudo sukkia ja myy niitä",
+        "is_bad": false,
+        "reward": 220,
+        "penalty_message": "Kaaduit kutomapuikon pälle ja se puhkaisi rintakehäsi. Joudut sairaalaan."
+    },
+    {
+        "job_name": "Leikkaa hiuksia",
+        "is_bad": false,
+        "reward": 320,
+        "penalty_message": "Leikkasit asiakkaalta kaikki hiukset ja sait potkut."
+    },
+    {
+        "job_name": "Kiillota kenkiä",
+        "is_bad": false,
+        "reward": 520,
+        "penalty_message": "Käytit syövyttävää ainetta ja pilasit asiakkaan kengät."
+    },
+    {
+        "job_name": "Myy leivoksia",
+        "is_bad": false,
+        "reward": 420,
+        "penalty_message": "Käytit pilaantuneita aineita ja leivoksesi eivät myyneet."
+    },
+    {
+        "job_name": "Siivoa vessoja",
+        "is_bad": false,
+        "reward": 130,
+        "penalty_message": "Sait infektion ja jouduit sairaalaan."
+    },
+    {
+        "job_name": "Myy kiviä",
+        "is_bad": false,
+        "reward": 230,
+        "penalty_message": "Asiakas suuttui huonosta palvelusta ja heitti kiven naamaasi."
+    },
+    {
+        "job_name": "Myy omenoita",
+        "is_bad": false,
+        "reward": 330,
+        "penalty_message": "Omenat olivat pilaantuneita."
+    },
+    {
+        "job_name": "Myy päärynöitä",
+        "is_bad": false,
+        "reward": 430,
+        "penalty_message": "Päärynöissä oli saasteita."
+    },
+    {
+        "job_name": "Anna hierontoja",
+        "is_bad": false,
+        "reward": 530,
+        "penalty_message": "Käyttäydyit epäasiallisesti ja menetit asiakkaasi."
+    },
+    {
+        "job_name": "Kerää banaanaeja ja myy niitä",
+        "is_bad": false,
+        "reward": 140,
+        "penalty_message": "Karannut apina vei tuotteesi."
+    },
+    {
+        "job_name": "Voita shakkiturnaus",
+        "is_bad": false,
+        "reward": 240,
+        "penalty_message": "Huijasit ja sinut diskattiin."
+    },
+    {
+        "job_name": "Myy tekemiäsi housuja",
+        "is_bad": false,
+        "reward": 340,
+        "penalty_message": "Ompelit housut huonosti ja jokainen hajosi."
+    },
+    {
+        "job_name": "Myy fidget spinnereitä",
+        "is_bad": false,
+        "reward": 440,
+        "penalty_message": "Asiakas huijasi kaikki tuotteet sinulta."
+    },
+    {
+        "job_name": "Leikkaa partoja",
+        "is_bad": false,
+        "reward": 540,
+        "penalty_message": "Viilsit asiakkaan korvan irti ja karkasit."
+    },
+    {
+        "job_name": "Väärennä isoäitisi testamentti",
+        "is_bad": true,
+        "reward": 1000,
+        "penalty_message": "Testamentissa oli kirjoitusvirhe ja sinua syytetään väärennysrikoksesta."
+    },
+    {
+        "job_name": "Varasta rahaa mummoilta",
+        "is_bad": true,
+        "reward": 1200,
+        "penalty_message": "Mummo osasi Brasilialaista jiu-jitsua ja mursi niskasi."
+    },
+    {
+        "job_name": "Myy aseita",
+        "is_bad": true,
+        "reward": 2000,
+        "penalty_message": "Laatikossa ollut käsikranaatti räjäytti myyntihetkellä sinut ja asiakkaasi."
+    },
+    {
+        "job_name": "Myy itseäsi",
+        "is_bad": true,
+        "reward": 1750,
+        "penalty_message": "Sinut kidnapattiin ja vietiin Pohjois-Koreaan työleirille."
+    },
+    {
+        "job_name": "Salamurhaa joku",
+        "is_bad": true,
+        "reward": 1450,
+        "penalty_message": "Olit huolimaton ja liukastuit verilammikkoon. Kaaduit suoraan veitsesi päälle."
+    },
+    {
+        "job_name": "Varasta ja myy wolt-tilauksia",
+        "is_bad": true,
+        "reward": 1100,
+        "penalty_message": "Poliisit näkivät varkauden ja pidättivät sinut."
+    },
+    {
+        "job_name": "Myy elimiä",
+        "is_bad": true,
+        "reward": 2100,
+        "penalty_message": "Lupasit ostajille liikaa ja he ottivat maksuksi molemmat silmäsi."
+    },
+    {
+        "job_name": "Ryöstä pankki",
+        "is_bad": true,
+        "reward": 3000,
+        "penalty_message": "Vartijat taklasivat sinut ennen kun ehdit vetää aseesi esiin."
+    },
+    {
+        "job_name": "Myy sarvikuonon sarvia",
+        "is_bad": true,
+        "reward": 2100,
+        "penalty_message": "Asiakkaasi oli salapoliisi joka ilmiantoi sinut."
+    },
+    {
+        "job_name": "Varasta punaiselta ristiltä",
+        "is_bad": true,
+        "reward": 1550,
+        "penalty_message": "Punainen risti sai sinut kiinni ja vei kaiken veresi."
+    }
+]
