@@ -1,24 +1,9 @@
-<<<<<<< Updated upstream
-from flask import Blueprint, Response
-import os
-=======
 from flask import Blueprint, Response, request
->>>>>>> Stashed changes
 import json
-import itertools
 
 
-leaderboard = Blueprint('leaderboard', __name__, url_prefix='/leaderboard')
+leaderboard = Blueprint('leaderboard', __name__, url_prefix='/leaderboard/')
 
-<<<<<<< Updated upstream
-
-@leaderboard.route('/')
-def get_leaderboard():
-    file_path = os.path.join(os.path.dirname(__file__), 'leaderboard.json')
-    with open(file_path, 'r') as f:
-        data = json.load(f)
-    return json.dumps(data)
-=======
 def get_leaderboard():
     #returns a list of all the scores in json with the player name, the player country, the player score & how long the player took to finish the game in seconds
 
@@ -60,4 +45,3 @@ def return_leaderboard():
 
         leaderboard_dict = get_leaderboard()
         return Response(json.dumps(leaderboard_dict), mimetype='application/json', status=200)
->>>>>>> Stashed changes
