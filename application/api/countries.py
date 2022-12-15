@@ -9,9 +9,13 @@ countries = Blueprint('countries', __name__, url_prefix='/countries')
 @countries.route('/')
 def get_countries_data():
     list_of_countries = get_countries()
-    sql_return = get_random_airport(list_of_countries)
-    result = turn_into_json(sql_return)
-    return result
+    airports = []
+    while len(airports) < 3:
+        sql_return = get_random_airport(list_of_countries)
+        airport = turn_into_json(sql_return)
+        if airport not in airports:
+            airports.append(airport)
+    return json.dumps({"airports": airports})
 
 def get_random_airport(list_of_airports):
     # 116 viimeinen lista lentokenttä
