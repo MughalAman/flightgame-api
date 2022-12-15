@@ -1,15 +1,15 @@
 [
     {
-        "job_name": "Haravoi",
+        "job_name": "Rake leaves",
         "is_bad": false,
         "reward": 150,
-        "penalty_message": "Onnistuit rikkomaan haravan ja joudut ostamaan uuden."
+        "penalty_message": "You managed to break the rake and you have to buy a new one."
     },
     {
-        "job_name": "Tee töitä mäkkärissä",
+        "job_name": "Work at McDonalds",
         "is_bad": false,
         "reward": 250,
-        "penalty_message": "Tarjoilit asiakkaalle pilaantunutta ruokaa ja sait potkut."
+        "penalty_message": "You served spoiled food"
     },
     {
         "job_name": "Pese autoja",
