@@ -18,8 +18,8 @@ def get_countries_data():
         "country_name": sql_list[1],
         "country_code": sql_list[3],
         "coordinates": {
-            "lat": sql_list[4],
-            "lon": sql_list[5]
+            "lat": sql_list[5],
+            "lon": sql_list[4]
         },
         "price": 100
     }
