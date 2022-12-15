@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 {
     "leaderboard": [
         {
@@ -17,3 +18,13 @@
         }
     ]
 }
+=======
+[
+    {
+        "player_name": "test",
+        "player_country_code": "FI",
+        "player_score": 1000,
+        "finish_time": 300
+    }
+]
+>>>>>>> Stashed changes

@@ -1,4 +1,5 @@
 flask
 requests
 pytest
-firebase-admin
+mysql-connector-python
+mapbox
