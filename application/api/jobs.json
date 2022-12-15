@@ -3,180 +3,210 @@
         "job_name": "Rake leaves",
         "is_bad": false,
         "reward": 150,
-        "penalty_message": "You managed to break the rake and you have to buy a new one."
+        "penalty_message": "You managed to break the rake and you have to buy a new one.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/rake.png?raw=true"
     },
     {
         "job_name": "Work at McDonalds",
         "is_bad": false,
         "reward": 250,
-        "penalty_message": "You served spoiled food and got fired."
+        "penalty_message": "You served spoiled food and got fired.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/hamburger.png?raw=true"
     },
     {
         "job_name": "Wash cars",
         "is_bad": false,
         "reward": 350,
-        "penalty_message": "You damaged the clients car and ran away."
+        "penalty_message": "You damaged the clients car and ran away.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/car.png?raw=true"
     },
     {
         "job_name": "Clean a shopping center",
         "is_bad": false,
         "reward": 450,
-        "penalty_message": "You drove the cleaning machine through a wall and escaped the scene."
+        "penalty_message": "You drove the cleaning machine through a wall and escaped the scene.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/mall.png?raw=true"
     },
     {
         "job_name": "Mow lawns",
         "is_bad": false,
         "reward": 500,
-        "penalty_message": "You broke the clients lawnmower and hid it in a bush."
+        "penalty_message": "You broke the clients lawnmower and hid it in a bush.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/lawn.png?raw=true"
     },
     {
         "job_name": "Sell your selfmade beverage",
         "is_bad": false,
         "reward": 120,
-        "penalty_message": "Your beverage caused seizures in the clients and you had to hide"
+        "penalty_message": "Your beverage caused seizures in the clients and you had to hide",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/beverage.png?raw=true"
     },
     {
         "job_name": "Weave socks",
         "is_bad": false,
         "reward": 220,
-        "penalty_message": "You fell on the weaving sticks and they punctured your ribcage. An ambulance took you to the hospital"
+        "penalty_message": "You fell on the weaving sticks and they punctured your ribcage. An ambulance took you to the hospital",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/sock.png?raw=true"
     },
     {
         "job_name": "Cut hair",
         "is_bad": false,
         "reward": 320,
-        "penalty_message": "You cut all of the clients hair off and got fired."
+        "penalty_message": "You cut all of the clients hair off and got fired.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/haircut.png?raw=true"
     },
     {
         "job_name": "Polish shoes",
         "is_bad": false,
         "reward": 520,
-        "penalty_message": "You used a corrosive substance and ruined the clients shoes."
+        "penalty_message": "You used a corrosive substance and ruined the clients shoes.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/shoe.png?raw=true"
     },
     {
         "job_name": "Sell pastries",
         "is_bad": false,
         "reward": 420,
-        "penalty_message": "You used spoiled ingredients ant the pastries didn't sell."
+        "penalty_message": "You used spoiled ingredients ant the pastries didn't sell.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/cupcake.png?raw=true"
     },
     {
         "job_name": "Clean bathrooms",
         "is_bad": false,
         "reward": 130,
-        "penalty_message": "You got an infection and had to go to the hospital."
+        "penalty_message": "You got an infection and had to go to the hospital.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/bathroom.png?raw=true"
     },
     {
         "job_name": "Sell rocks",
         "is_bad": false,
         "reward": 230,
-        "penalty_message": "The client got angry from bad customer service and threw the rock at you."
+        "penalty_message": "The client got angry from bad customer service and threw the rock at you.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/rock.png?raw=true"
     },
     {
         "job_name": "Sell apples",
         "is_bad": false,
         "reward": 330,
-        "penalty_message": "The apples were spoiled."
+        "penalty_message": "The apples were spoiled.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/apple.png?raw=true"
     },
     {
         "job_name": "Sell pears",
         "is_bad": false,
         "reward": 430,
-        "penalty_message": "The pears had contaminants in them."
+        "penalty_message": "The pears had contaminants in them.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/pear.jpg?raw=true"
     },
     {
         "job_name": "Give massages",
         "is_bad": false,
         "reward": 530,
-        "penalty_message": "You acted inappropriately and lost the client."
+        "penalty_message": "You acted inappropriately and lost the client.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/massage.png?raw=true"
     },
     {
         "job_name": "Sell bananas",
         "is_bad": false,
         "reward": 140,
-        "penalty_message": "A rogue monkey stole all your bananas."
+        "penalty_message": "A rogue monkey stole all your bananas.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/bornana.png?raw=true"
     },
     {
         "job_name": "Win a chess tournament.",
         "is_bad": false,
         "reward": 240,
-        "penalty_message": "You cheated and got disqualified."
+        "penalty_message": "You cheated and got disqualified.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/chess.png?raw=true"
     },
     {
         "job_name": "Sell handcrafted pants",
         "is_bad": false,
         "reward": 340,
-        "penalty_message": "The stitching on the pants was flawed and they got ripped up."
+        "penalty_message": "The stitching on the pants was flawed and they got ripped up.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/pants.png?raw=true"
     },
     {
         "job_name": "Sell fidget spinners",
         "is_bad": false,
         "reward": 440,
-        "penalty_message": "The customer scammed you of all the products."
+        "penalty_message": "The customer scammed you of all the products.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/fidget.png?raw=true"
     },
     {
         "job_name": "Cut Beards",
         "is_bad": false,
         "reward": 540,
-        "penalty_message": "You sliced the clients ear off and fled the scene."
+        "penalty_message": "You sliced the clients ear off and fled the scene.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/Goodjobs/beard.png?raw=true"
     },
     {
         "job_name": "Forge your grandmothers will",
         "is_bad": true,
         "reward": 1000,
-        "penalty_message": "The will had a typing error and now you face indictments."
+        "penalty_message": "The will had a typing error and now you face indictments.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/grandma.png?raw=true"
     },
     {
         "job_name": "Steal money from an elderly person",
         "is_bad": true,
         "reward": 1200,
-        "penalty_message": "The person knew jiu-jitsu and choked you out."
+        "penalty_message": "The person knew jiu-jitsu and choked you out.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/steal.png?raw=true"
     },
     {
         "job_name": "Sell guns",
         "is_bad": true,
         "reward": 2000,
-        "penalty_message": "A grenade malfunctioned blew up your finger."
+        "penalty_message": "A grenade malfunctioned blew up your finger.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/guns.png?raw=true"
     },
     {
         "job_name": "Sell yourself.",
         "is_bad": true,
         "reward": 1750,
-        "penalty_message": "You got kidnapped and sent to a concentration camp."
+        "penalty_message": "You got kidnapped and sent to a concentration camp.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/body.png?raw=true"
     },
     {
         "job_name": "Assassinate someone",
         "is_bad": true,
         "reward": 1450,
-        "penalty_message": "You were careless and slipped on blood. The police came to the scene but you managed to bribe a corrupted officer."
+        "penalty_message": "You were careless and slipped on blood. The police came to the scene but you managed to bribe a corrupted officer.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/murder.png?raw=true"
     },
     {
         "job_name": "Steal and sell wolt-deliveries",
         "is_bad": true,
         "reward": 1100,
-        "penalty_message": "The police saw you and you had to bribe them."
+        "penalty_message": "The police saw you and you had to bribe them.",
+        "iamge_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/wolt.png?raw=true"
     },
     {
         "job_name": "Sell organs",
         "is_bad": true,
         "reward": 2100,
-        "penalty_message": "You promised the clients too much and they took your eye."
+        "penalty_message": "You promised the clients too much and they took your eye.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/organ.png?raw=true"
     },
     {
         "job_name": "Rob a bank",
         "is_bad": true,
         "reward": 3000,
-        "penalty_message": "The guards tackled you before you managed to pull your gun out. Luckily you had a knife and escaped."
+        "penalty_message": "The guards tackled you before you managed to pull your gun out. Luckily you had a knife and escaped.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/bank.png?raw=true"
     },
     {
         "job_name": "Sell rhino horns",
         "is_bad": true,
         "reward": 2100,
-        "penalty_message": "The client was an undercover cop and you had to bribe them."
+        "penalty_message": "The client was an undercover cop and you had to bribe them.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/rhino.png?raw=true"
     },
     {
         "job_name": "Steal from the Red Cross",
         "is_bad": true,
         "reward": 1550,
-        "penalty_message": "The Red Cross caught you red handed and took all of your blood."
+        "penalty_message": "The Red Cross caught you red handed and took all of your blood.",
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/steal.png?raw=true"
     }
 ]
