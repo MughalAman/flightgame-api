@@ -179,7 +179,7 @@
         "is_bad": true,
         "reward": 1100,
         "penalty_message": "The police saw you and you had to bribe them.",
-        "iamge_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/wolt.png?raw=true"
+        "image_url" : "https://github.com/MughalAman/flightgame-api/blob/main/application/api/job_images/badjobs/wolt.png?raw=true"
     },
     {
         "job_name": "Sell organs",
