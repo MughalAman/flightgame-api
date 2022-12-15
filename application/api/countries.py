@@ -25,7 +25,7 @@ def get_countries_data():
     }
         if airport not in airports:
             airports.append(airport)
-    return airports
+    return Response(json.dumps(airports), mimetype='text/html', status=200)
 
 def get_random_airport(list_of_airports):
     # 116 viimeinen lista lentokenttä
