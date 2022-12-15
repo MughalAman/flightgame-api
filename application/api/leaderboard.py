@@ -2,7 +2,7 @@ from flask import Blueprint, Response, request
 import json
 
 
-leaderboard = Blueprint('leaderboard', __name__, url_prefix='/leaderboard')
+leaderboard = Blueprint('leaderboard', __name__, url_prefix='/leaderboard/')
 
 def get_leaderboard():
     #returns a list of all the scores in json with the player name, the player country, the player score & how long the player took to finish the game in seconds
