@@ -19,14 +19,14 @@ def get_countries_data():
         "country_name": sql_list[1],
         "country_code": sql_list[3],
         "coordinates": {
-            "lat": sql_list[4],
-            "lon": sql_list[5]
+            "lat": sql_list[5],
+            "lon": sql_list[4]
         },
         "price": 100
     }
         if airport not in airports:
             airports.append(airport)
-    return Response(json.dumps(airports), mimetype='text/html', status=200)
+    return Response(json.dumps(airports), mimetype='application/json', status=200)
 
 def get_random_airport(list_of_airports):
     # 116 viimeinen lista lentokenttä
