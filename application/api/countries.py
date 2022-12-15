@@ -33,17 +33,3 @@ def get_random_airport(list_of_airports):
     final_airport = list_of_airports[airport_num]
     return final_airport
 
-def turn_into_json(sql_list):
-    sql_print = {
-        "airport_name": sql_list[0],
-        "airport_ident": sql_list[2],
-        "country_name": sql_list[1],
-        "country_code": sql_list[3],
-        "coordinates": {
-            "lat": sql_list[4],
-            "lon": sql_list[5]
-        },
-        "price": 100
-    }
-    result = json.dumps(sql_print)
-    return result
