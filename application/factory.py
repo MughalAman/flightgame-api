@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from application.api.countries import countries
 from application.api.jobs import jobs
 from application.api.leaderboard import leaderboard
@@ -13,4 +14,6 @@ def create_app():
     app.register_blueprint(jobs)
     app.register_blueprint(leaderboard)
     app.register_blueprint(weather)
+
+    CORS(app, resources={r"/*": {"origins": "*"}})
     return app
