@@ -16,28 +16,31 @@ def get_countries_data():
     airports = []
     while len(airports) < 3:
         sql_list = get_random_airport(list_of_countries)
+        if sql_list[5] < 90 and sql_list[5] > -90:
+            start_airport = (start_airport_lat, start_airport_lon)
+            end_airport = (sql_list[5], sql_list[4])
+            distance = count_distance(start_airport, end_airport)
+            result = count_co2_consumed(distance)
 
-        start_airport = (start_airport_lat, start_airport_lon)
-        end_airport = (sql_list[5], sql_list[4])
-        distance = count_distance(start_airport, end_airport)
-        result = count_co2_consumed(distance)
+            airport = \
+            {"airport_name": sql_list[0],
+            "airport_ident": sql_list[2],
+            "country_name": sql_list[1],
+            "country_code": sql_list[3],
+            "coordinates": {
+                "lat": sql_list[5],
+                "lon": sql_list[4]
+            },
+            "price": scale_flight_price(100, distance),
+            "distance": distance,
+            "co2_consumed": result,
+
+        }
 
 
-        airport = \
-        {"airport_name": sql_list[0],
-        "airport_ident": sql_list[2],
-        "country_name": sql_list[1],
-        "country_code": sql_list[3],
-        "coordinates": {
-            "lat": sql_list[5],
-            "lon": sql_list[4]
-        },
-        "price": scale_flight_price(100, distance),
-        "distance": distance,
-        "co2_consumed": result
-    }
-        if airport not in airports and airport['country_code'] not in [a['country_code'] for a in airports]:
-            airports.append(airport)
+            if airport not in airports and airport['country_code'] not in [a['country_code'] for a in airports]:
+                airports.append(airport)
+
     return Response(json.dumps(airports), mimetype='application/json', status=200)
 
 def get_random_airport(list_of_airports):
@@ -45,7 +48,6 @@ def get_random_airport(list_of_airports):
     airport_num = randint(0, 116)
     final_airport = list_of_airports[airport_num]
     return final_airport
-
 
 def count_distance(start, end):
     return round(distance_km(start, end).km, 2)
