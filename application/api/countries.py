@@ -9,10 +9,20 @@ countries = Blueprint('countries', __name__, url_prefix='/countries')
 
 @countries.route('/')
 def get_countries_data():
+    start_airport_lat = float(request.args.get("start_lat"))
+    start_airport_lon = float(request.args.get("start_lon"))
+
     list_of_countries = get_countries()
     airports = []
     while len(airports) < 3:
         sql_list = get_random_airport(list_of_countries)
+
+        start_airport = (start_airport_lat, start_airport_lon)
+        end_airport = (sql_list[5], sql_list[4])
+        distance = count_distance(start_airport, end_airport)
+        result = count_co2_consumed(distance)
+
+
         airport = \
         {"airport_name": sql_list[0],
         "airport_ident": sql_list[2],
@@ -22,7 +32,9 @@ def get_countries_data():
             "lat": sql_list[5],
             "lon": sql_list[4]
         },
-        "price": 100
+        "price": scale_flight_price(100, distance),
+        "distance": distance,
+        "co2_consumed": result
     }
         if airport not in airports:
             airports.append(airport)
@@ -41,21 +53,6 @@ def count_distance(start, end):
 def count_co2_consumed(distance):
     return round((distance*0.176), 0)
 
+def scale_flight_price(cost,km):
+    return round(km/1000*cost)
 
-#http://127.0.0.1:5000/countries/flight_info?start_lat=10.10&start_lon=10.10&end_lat=20.20&end_lon=20.20
-@countries.route('/flight_info')
-def flight_info():
-    start_airport_lat = float(request.args.get("start_lat"))
-    start_airport_lon = float(request.args.get("start_lon"))
-    end_airport_lat = float(request.args.get("end_lat"))
-    end_airport_lon = float(request.args.get("end_lon"))
-    start_airport = (start_airport_lat, start_airport_lon)
-    end_airport = (end_airport_lat, end_airport_lon)
-    distance = count_distance(start_airport, end_airport)
-    result = count_co2_consumed(distance)
-    counted_info = {
-                    "distance": distance,
-                    "co2_consumed": result
-                    }
-
-    return Response(json.dumps(counted_info), mimetype='text/html', status=200)
