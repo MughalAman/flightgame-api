@@ -36,7 +36,7 @@ def get_countries_data():
         "distance": distance,
         "co2_consumed": result
     }
-        if airport not in airports:
+        if airport not in airports and airport['country_code'] not in [a['country_code'] for a in airports]:
             airports.append(airport)
     return Response(json.dumps(airports), mimetype='application/json', status=200)
 
