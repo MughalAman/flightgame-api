@@ -21,14 +21,14 @@ def get_leaderboard():
 
 
 
-def save_leaderboard(player_name, player_country, player_score, player_time):
+def save_leaderboard(player_name, player_country_code, player_score):
     #saves the player's score to the leaderboard json file
     
     with open('./application/api/leaderboard.json', 'r') as f: #opens the json file to read from it
         leaderboard_dict = json.load(f) #load the json file
-        leaderboard_dict.append({'player_name': player_name, 'player_country': player_country, 'player_score': player_score, 'player_time': player_time}) #adds the player's score to the json file
+        leaderboard_dict.append({'player_name': player_name, 'player_country_code': player_country_code, 'player_score': player_score}) #adds the player's score to the json file
 
-        with open('leaderboard.json', 'w') as f: #opens the json file to write to it
+        with open('./application/api/leaderboard.json', 'w') as f: #opens the json file to write to it
             json.dump(leaderboard_dict, f, indent=4) #saves the json file
 
 @leaderboard.route('/', methods=['GET', 'POST'])
@@ -38,10 +38,9 @@ def return_leaderboard():
         return Response(json.dumps(leaderboard_dict), mimetype='application/json', status=200)
     elif request.method == 'POST':
         player_name = request.args.get('player_name')
-        player_country = request.args.get('player_country')
-        player_score = request.args.get('player_score')
-        player_time = request.args.get('player_time')
-        save_leaderboard(player_name, player_country, player_score, player_time)
+        player_country_code = request.args.get('player_country_code')
+        player_score = int(request.args.get('player_score'))
+        save_leaderboard(player_name, player_country_code, player_score)
 
         leaderboard_dict = get_leaderboard()
         return Response(json.dumps(leaderboard_dict), mimetype='application/json', status=200)

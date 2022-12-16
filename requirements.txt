@@ -4,3 +4,4 @@ pytest
 mysql-connector-python
 mapbox
 flask-cors
+geopy
