@@ -145,4 +145,9 @@ response body:
     },
 ]
 ```
-
+# Credits
+### The team behind this project
+- [Aman Mughal](https://amppa.dev/)
+- [Santtu Karhu](https://github.com/JSABear/)
+- [Mixu Koski-Homi](https://github.com/migetonni)
+- [Miko Heino](https://github.com/Nakk1makkara)
